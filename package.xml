@@ -700,6 +700,8 @@
         <members>RecordAction.Pinned</members>
         <members>RecordAction.RecordId</members>
         <members>RecordAction.Status</members>
+        <members>Registration__c.RegistrationID__c</members>
+        <members>Registration__c.Registration_Date__c</members>
         <members>Scorecard.Description</members>
         <members>Scorecard.Name</members>
         <members>Scorecard.OwnerId</members>
@@ -826,6 +828,7 @@
         <members>QuickText</members>
         <members>Recommendation</members>
         <members>RecordAction</members>
+        <members>Registration__c</members>
         <members>RequestsForAccessSIQ</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
@@ -924,6 +927,7 @@
         <members>Product2-Product Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
         <members>QuickText-Quick Text Layout</members>
+        <members>Registration__c-Registration Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
@@ -1205,6 +1209,10 @@
         <members>Solution</members>
         <members>Task</members>
         <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>Registration__c.regvalrule</members>
+        <name>ValidationRule</name>
     </types>
     <types>
         <members>Account.Billing</members>

@@ -1468,6 +1468,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Registration__c.RegistrationID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Registration__c.Registration_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SocialPersona.SourceApp</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1603,6 +1613,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Registration__c-Registration Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
@@ -1791,6 +1804,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>QuickText</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Registration__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
