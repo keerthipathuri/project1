@@ -1211,6 +1211,7 @@
         <name>TopicsForObjects</name>
     </types>
     <types>
+        <members>Registration__c.regdate</members>
         <members>Registration__c.regvalrule</members>
         <name>ValidationRule</name>
     </types>

@@ -81,6 +81,13 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
+        <fullName>regdate</fullName>
+        <active>true</active>
+        <description>registration date can not be today date</description>
+        <errorConditionFormula>Registration_Date__c  &lt;  TODAY()</errorConditionFormula>
+        <errorMessage>registrations can not be done today</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>regvalrule</fullName>
         <active>true</active>
         <errorConditionFormula>Registration_Date__c  =  TODAY()</errorConditionFormula>
