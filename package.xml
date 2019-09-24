@@ -655,6 +655,7 @@
         <members>OrderItem.TotalPrice</members>
         <members>OrderItem.UnitPrice</members>
         <members>PartnerRole.ReverseRole</members>
+        <members>Person__c.Phone__c</members>
         <members>Pricebook2.Description</members>
         <members>Pricebook2.IsActive</members>
         <members>Pricebook2.IsStandard</members>
@@ -820,6 +821,7 @@
         <members>OrderItem</members>
         <members>OrgDeleteRequest</members>
         <members>PartnerRole</members>
+        <members>Person__c</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
@@ -844,6 +846,11 @@
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Person__c-en_US</members>
+        <members>Registration__c-en_US</members>
+        <name>CustomObjectTranslation</name>
     </types>
     <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
@@ -922,6 +929,7 @@
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
+        <members>Person__c-Person Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
@@ -1211,6 +1219,7 @@
         <name>TopicsForObjects</name>
     </types>
     <types>
+        <members>Person__c.only_numbers</members>
         <members>Registration__c.regdate</members>
         <members>Registration__c.regvalrule</members>
         <name>ValidationRule</name>
